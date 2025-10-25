@@ -53,5 +53,3 @@ Notes
 - Use `--subset N` to limit the number of segments processed while you experiment.
 - `--viz` shows plots; don't use it on headless servers unless you save the figures instead.
 - After each run the script writes a small JSON summary to `results/timing.json` with timing and distance-call stats.
-
-If you want, I can add a helper to make a 1000-segment sample from PulseDB and save it as a CSV for the full benchmark.
