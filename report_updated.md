@@ -105,8 +105,6 @@ start, end = find_max_subarray(x)
 assert start == 2 and end == 4  # [2,3,2]
 ```
 
-[Add screenshots of actual runs here]
-
 ## 6. Results on 1000 Time Series
 
 Running on the full PulseDB dataset (1000 ABP segments):
@@ -124,7 +122,6 @@ Key findings:
 - Closest pairs show clear heartbeat pattern matching
 - Kadane intervals align with systolic pressure regions
 
-[Add cluster visualization screenshots]
 
 ## 7. Discussion & Insights
 
@@ -154,6 +151,4 @@ Possible improvements:
 
 ## 9. References
 
-- PulseDB dataset: [Kaggle link]
-- FastDTW paper: [citation]
-- Kadane's algorithm: [citation]
+- PulseDB dataset: https://www.kaggle.com/datasets/weinanwangrutgers/pulsedb-balanced-training-and-testing
